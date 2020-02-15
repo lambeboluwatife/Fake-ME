@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Generate fake and random details">
+    <meta name="keywords" content="random details generator, application, HTML, CSS, BOOTSTRAP, JS">
+    <meta name="author" content="Lambe Boluwatife">
+    <title>Fake ME!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="fontawesome/css/solid.css">
+    <link rel="stylesheet" href="fontawesome/css/brands.css">
+    <link rel="stylesheet" href="BOOTSTRAP/css/bootstrap.min.css">
+    <link rel="icon" type="image" href="image/fake4.png">
+  </head>
+  <body>
+    <div class="container">
+      <!-- jumbotron (Heading) -->
+      <div class="jumbotron bg-success text-white">
+        <h2>Fake ME!</h2>
+        <p>Generate fake and random details; like names, phone numbers, address, country and more.</p>
+      </div>
+
+      <!-- Result -->
+      <center>
+        <div class="data">
+            <div class="photo"></div>
+          <div class="details">
+            <div class="name"></div>
+            <div class="age"></div>
+            <div class="gender"></div>
+            <div class="country"></div>
+            <div class="phone"></div>
+          </div>
+        </div>
+      </center>
+
+      <div class="card card-body py-5">
+        <h4 class="text-dark">Optional Parameters</h4>
+
+        <form role="form">
+          <div class="form-group">
+            <label for="sel1">Select Gender:</label>
+            <select class="form-control gender" id="sel1">
+              <option disabled selected>Gender</option>
+              <option>male</option>
+              <option>female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="sel2">Select Country:</label>
+            <select class="form-control region" id="sel2">
+              <option disabled selected>Country</option>
+              <option>argentina</option>
+              <option>belgium</option>
+              <option>brazil</option>
+              <option>canada</option>
+              <option>england</option>
+              <option>france</option>
+              <option>germany</option>
+              <option>india</option>
+              <option>italy</option>
+              <option>japan</option>
+              <option>mexico</option>
+              <option>nigeria</option>
+              <option>portugal</option>
+              <option>spain</option>
+              <option>united states</option>
+            </select>
+          </div>
+        </form>
+        <button type="submit" class="btn btn-success">Generate</button>
+      </div>
+
+      </div>
+
+    <!-- <script src="BOOTSTRAP/js/jquery-3.3.1.min.js"></script>
+    <script src="BOOTSTRAP/js/bootstrap.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/advance.js" charset="utf-8"></script>
+  </body>
+</html>
